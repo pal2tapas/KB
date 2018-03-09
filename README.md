@@ -6,11 +6,11 @@ Implement a GIFT VOUCHER SYSTEM in IOS to send Vouchers/payments
 
 1. Screen A : Login with CREDENTIALS (dummy LOGIN eval with JSON )
 2. Screen B : Home page should welcome the user with greetings along with menu bar to Select contacts by phone or email ( should load default phone contacts for both phone number and email from directory with an other option to select adifferent recipient manually), once user is selected navigate to Screen C
-3. Screen C : Select predefined amount to be sent as voucher or choose predefined coupons/voucher
+3. Screen C : Select predefined amount to be sent as voucher or choose predefined coupons/voucher ( define datastructure as JSON for coupon/voucher list)
 4. Screen D : Payment gateway either by rewards or banking or CC or wallet ( can be simulated with default app wallet )
 4. Screen E : Succesfull Transaction Details with unique voucher bar code to be generated and persisted locally ( Screen should contain share button upon click it should share with the person from screen B (phone contact) with a voucher widget by SMS or Whatsapp or FB messenger or email )
 
-On All screen there should be common menu bar to navigate between screen and other profile screens, log out etc. 
+On All screen there should be common menu bar to navigate between screen and other screens like profile , rewards,wallet, log out etc. 
 
 you can use AirAsia Logo for branding.
 
@@ -23,6 +23,7 @@ you can use AirAsia Logo for branding.
 6. Production ready code
 7. TDD
 8. Good Technical design and Creative UX
+9. Get Creative in developing the data structure where ever necessary and host it locally in DB or cloud.
 
 
 You have 120 minutes to finish this. All the Best!!!
