@@ -14,7 +14,7 @@ On All screen there should be common menu bar to navigate between screen and oth
 
 you can use AirAsia Logo for branding.
 
-IMP Tips:
+# IMP Tips:
 1. Proper README or SOLUTION guide to run your code to be present
 2. All above screens should be implemented
 3. Stop developing 15 minutes before the time limit to ensure that it is properly committed to your GIT
