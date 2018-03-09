@@ -18,7 +18,7 @@ you can use AirAsia Logo for branding.
 1. Proper README or SOLUTION guide to run your code to be present
 2. All above screens should be implemented
 3. Stop developing 15 minutes before the time limit to ensure that it is properly committed to your GIT
-4. Leverage the JSON for predefined coupons
+4. generate the datastructure (JSON) for predefined coupons
 5. MVC/MVVM/MVP pattern is a must
 6. Production ready code
 7. TDD
