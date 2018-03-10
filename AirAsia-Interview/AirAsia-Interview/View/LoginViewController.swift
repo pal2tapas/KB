@@ -13,12 +13,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tfEmail: UITextField!
     @IBOutlet weak var tfPassword: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
     @IBAction func singin() {
         if LoginManager.shared.authenticate(email: tfEmail.text!, password: tfPassword.text!) {
             print("success")

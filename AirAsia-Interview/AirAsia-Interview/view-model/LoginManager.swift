@@ -41,6 +41,8 @@ class LoginManager: NSObject {
         
         for eachData in data {
             if let emailData = eachData["email"] as? String, emailData == email, let passwordData = eachData["password"] as? String, passwordData == password {
+                let user = CIUser(name: eachData["name"] as! String, email: emailData, phoneNumber: eachData["phoneNumber"] as! String)
+                DataManager.shared.saveLoggedInUser(user)
                 return true
             }
         }

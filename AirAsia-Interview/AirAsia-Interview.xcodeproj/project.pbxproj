@@ -16,6 +16,10 @@
 		AF13F4782053918E00F475F6 /* LoginCredentials.json in Resources */ = {isa = PBXBuildFile; fileRef = AF13F4772053918E00F475F6 /* LoginCredentials.json */; };
 		AF13F47B2053933E00F475F6 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F47A2053933E00F475F6 /* LoginManager.swift */; };
 		AF13F47E2053943D00F475F6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F47D2053943D00F475F6 /* Utils.swift */; };
+		AF13F48020539D3D00F475F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F47F20539D3D00F475F6 /* HomeViewController.swift */; };
+		AF13F48920539E7E00F475F6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F48820539E7E00F475F6 /* MenuViewController.swift */; };
+		AF13F48B20539F7E00F475F6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F48A20539F7E00F475F6 /* DataManager.swift */; };
+		AF13F48D2053A02200F475F6 /* CIUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13F48C2053A02200F475F6 /* CIUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		AF13F4772053918E00F475F6 /* LoginCredentials.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LoginCredentials.json; sourceTree = "<group>"; };
 		AF13F47A2053933E00F475F6 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		AF13F47D2053943D00F475F6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AF13F47F20539D3D00F475F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF13F48820539E7E00F475F6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AF13F48A20539F7E00F475F6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AF13F48C2053A02200F475F6 /* CIUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				AF13F47C2053943300F475F6 /* Utils */,
-				AF13F476205390EB00F475F6 /* Resources */,
+				AF13F476205390EB00F475F6 /* Model */,
 				AF13F46120538CBD00F475F6 /* AppDelegate.swift */,
 				AF13F4792053932A00F475F6 /* view-model */,
 				AF13F47320538DEA00F475F6 /* View */,
@@ -80,22 +88,26 @@
 			children = (
 				AF13F46520538CBD00F475F6 /* Main.storyboard */,
 				AF13F47420538E0200F475F6 /* LoginViewController.swift */,
+				AF13F47F20539D3D00F475F6 /* HomeViewController.swift */,
+				AF13F48820539E7E00F475F6 /* MenuViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		AF13F476205390EB00F475F6 /* Resources */ = {
+		AF13F476205390EB00F475F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				AF13F4772053918E00F475F6 /* LoginCredentials.json */,
+				AF13F48C2053A02200F475F6 /* CIUser.swift */,
 			);
-			path = Resources;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AF13F4792053932A00F475F6 /* view-model */ = {
 			isa = PBXGroup;
 			children = (
 				AF13F47A2053933E00F475F6 /* LoginManager.swift */,
+				AF13F48A20539F7E00F475F6 /* DataManager.swift */,
 			);
 			path = "view-model";
 			sourceTree = "<group>";
@@ -182,10 +194,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF13F47E2053943D00F475F6 /* Utils.swift in Sources */,
+				AF13F48B20539F7E00F475F6 /* DataManager.swift in Sources */,
 				AF13F47520538E0200F475F6 /* LoginViewController.swift in Sources */,
 				AF13F47B2053933E00F475F6 /* LoginManager.swift in Sources */,
+				AF13F48920539E7E00F475F6 /* MenuViewController.swift in Sources */,
 				AF13F46420538CBD00F475F6 /* ViewController.swift in Sources */,
+				AF13F48D2053A02200F475F6 /* CIUser.swift in Sources */,
 				AF13F46220538CBD00F475F6 /* AppDelegate.swift in Sources */,
+				AF13F48020539D3D00F475F6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
