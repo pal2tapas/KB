@@ -18,13 +18,16 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         CIMenu.shared.button?.isHidden = true
+        
+        let backButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(close))
+        navigationItem.leftBarButtonItem = backButton
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        CIMenu.shared.button?.isHidden = false
+    @objc func close() {
+        dismiss(animated: true) {
+            CIMenu.shared.button?.isHidden = false
+        }
     }
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menu.count
