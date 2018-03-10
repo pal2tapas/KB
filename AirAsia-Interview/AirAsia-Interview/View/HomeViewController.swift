@@ -12,5 +12,12 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        CIMenu.shared.configure {
+            if let navController = self.storyboard?.instantiateViewController(withIdentifier: "MenuNavigationController") {
+                self.navigationController?.present(navController, animated: true, completion: nil)
+            }
+        }
     }
+    
+    
 }

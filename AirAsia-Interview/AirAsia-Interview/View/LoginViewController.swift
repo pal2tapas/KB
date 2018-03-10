@@ -14,8 +14,10 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tfPassword: UITextField!
     
     @IBAction func singin() {
-        if LoginManager.shared.authenticate(email: tfEmail.text!, password: tfPassword.text!) {
-            print("success")
+        if /* LoginManager.shared.authenticate(email: tfEmail.text!, password: tfPassword.text!) */ true {
+            if let homeController = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") {
+                navigationController?.pushViewController(homeController, animated: true)
+            }
         }
     }
 }

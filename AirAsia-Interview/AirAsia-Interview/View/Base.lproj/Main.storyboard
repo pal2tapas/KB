@@ -88,7 +88,7 @@
         <!--Home View Controller-->
         <scene sceneID="Rsv-b3-s8l">
             <objects>
-                <viewController id="3G7-WP-ZRk" customClass="HomeViewController" customModule="AirAsia_Interview" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="3G7-WP-ZRk" customClass="HomeViewController" customModule="AirAsia_Interview" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sgl-6d-zfS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
         <!--Navigation Controller-->
         <scene sceneID="txQ-GD-8j9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WOb-3q-JGQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MenuNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="WOb-3q-JGQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R2V-jf-bGS">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
