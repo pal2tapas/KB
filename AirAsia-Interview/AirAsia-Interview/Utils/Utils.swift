@@ -47,7 +47,7 @@ extension JSONSerialization {
                     return result
                 }
             } catch {
-                print("Error")
+                print("Error while parsing json")
             }
         }
         return nil

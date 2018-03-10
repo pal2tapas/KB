@@ -21,6 +21,8 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let backButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(close))
         navigationItem.leftBarButtonItem = backButton
+        
+        lblName.text = DataManager.shared.currentUser?.name
     }
     
     @objc func close() {
